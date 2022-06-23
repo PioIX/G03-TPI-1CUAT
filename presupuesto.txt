@@ -1,0 +1,3 @@
+Nosotros pensamos en hacer una aplicación web que no sea un juego, sino que sea una aplicacion más que nada para informarte del ODS. 
+El ODS que elegimos es el de accion por el clima (numero 13).
+También pensamos que además podríamos agregar alguna actividad interactiva relacionada.
