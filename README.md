@@ -9,7 +9,7 @@
 
 ## Introducción
 
-## APP
+## App de Flask
 
 ## Presupuesto
 
