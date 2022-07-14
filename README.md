@@ -2,10 +2,10 @@
 
 ## Integrantes
 
-- Matías Naddeo
-- Juan Pablo Goumaz
-- Lucas Podestá
 - Nicolás Fuentes
+- Juan Pablo Goumaz
+- Matías Naddeo
+- Lucas Podestá
 
 ## Introducción
 
