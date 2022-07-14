@@ -1,4 +1,4 @@
-# Trabajo integrador interdiciplinario Grupo Nº3
+# Trabajo Integrador interdiciplinario Grupo Nº3
 
 ## Integrantes
 
