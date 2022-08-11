@@ -10,93 +10,88 @@
     <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="../CSS/ihover.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 <body>
-    <header>
-        <nav class = "nav1">
-          <img src="../img/logo.png" alt="logo" class = "logo">
-          <ul  class="menu" data-animation="center">
-              <li class = "menu-li"><a href="index.html">Inicio <i class='bx bxs-home-alt-2' ></i></a></li>
-              <li class = "menu-li"><a href="problematica.html">Problemática <i class='bx bxs-error'></i></a></li>
-              <li class = "menu-li"><a href="sumate.html">¿Como ayudar?<i class='bx bxs-donate-blood'></i></a></li>
-              <li class = "menu-li"><a href="masInfo.html">Más información <i class='bx bx-plus'></i></a></li>
-          </ul>
-        </nav>
-    </header>
+  <header id="header">
+    <img src="../img/logo.png" alt="logo" class = "logo">
+    <nav class="links" style="--items: 4;">
+      <a href="index.html">Inicio</a>
+      <a href="problematica.html">Problemática</a>
+      <a href="ayudar.html">¿Como ayudar?</a>
+      <a href="masInfo.html" class = "actual">Más información</a>
+      <span class="line"></span>
+    </nav>
+  </header>
     <main>
           <section class = "section1">
-            <h1>Información</h1>
+            <h1>"Blog"</h1>
           </section>
-          <section class = "section2">
-            <div class="s2-d1">
-              <h2 data-aos="zoom-in-right"  data-aos-offset="0">Lorem ipsum</h2>
-              <p data-aos="zoom-in-right"  data-aos-offset="0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet tempora, porro impedit molestias excepturi dignissimos ipsam, deserunt pariatur error sed iure quo dolorum, corrupti voluptas quam nihil soluta quasi delectus.</p>
-            </div>
-            <div class="">
-              <img src="../img/rayas.png" alt="">
-            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <section class = "section13">
+            <h1>hola gey</h1>
+            <ul>
+              <li>
+                <h5>tony</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus doloribus asperiores esse possimus accusamus, natus fugit explicabo reiciendis reprehenderit. Laboriosam repudiandae ipsum similique dolorem? Temporibus ex dignissimos qui cum omnis.<span>&nbsp&nbsp13:31</span></p>
+                </li>
+              <li>
+                <h5>eduarda</h5>
+                <p>lorem ipsum dolor<span>&nbsp&nbsp13:31</span></p>
+              </li>
+              <li>
+                <h5>carlos</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus doloribus asperiores esse possimus accusamus<span>&nbsp&nbsp13:31</span></p>
+              </li>
+            </ul>
+            <form>
+              <label for="mensaje">Comenta</label>
+              <textarea name="mensaje" id="mensaje" rows="5" placeholder="Mensaje..." requiredminlength="4"></textarea>
+              <button type="submit">Enviar</button>
+            </form>
           </section>
-          <section class = "section3">
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="4" aria-label="Slide 5"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="5000">
-                  <img src="../img/ej/ej1.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                  <img src="../img/ej/ej2.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                  <img src="../img/ej/ej3.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                  <img src="../img/ej/ej4.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>cuarto slide label</h5>
-                    <p>Some representative placeholder content for the cuarto slide.</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                  <img src="../img/ej/ej5.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>quinto slide label</h5>
-                    <p>Some representative placeholder content for the quinto slide.</p>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </section>
-          <section class = "section7">
-            <img src="../img/ej/chimpance.jpg" alt="" class="img1">
-            <img src="../img/ej/gorila.jpg" alt="" class="img2">
-          </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
     <footer>
       <section class = "f-section1">
